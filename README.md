@@ -33,18 +33,12 @@ It provides tools for analyzing CPS process data, fitting probability curves, an
 
 ## Quick Start  
 
-### Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/ruoxinyuan/cps-prediction.git
-   cd cps-prediction
-   ```
-2. Install dependencies:  
+Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```  
 
-### Example: Train Models  
+**Example: Train Models**  
 Run the following command to train models on sample data:  
 ```bash
 python scripts/train.py
