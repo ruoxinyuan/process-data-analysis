@@ -99,7 +99,7 @@ def main():
     device = torch.device(training_config["device"] if torch.cuda.is_available() else "cpu")
 
     # Load data
-    data_dir = Path(paths_config["data"])
+    data_dir = Path(paths_config["example_data"])
     if not data_dir.exists():
         raise FileNotFoundError(f"Data directory not found: {data_dir}")
 
