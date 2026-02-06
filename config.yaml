@@ -36,5 +36,5 @@ testing:
   device: "cuda"
 
 paths:
-  data: "data/"
+  data: "example_data/"
   output: "output/"
